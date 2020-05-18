@@ -112,23 +112,23 @@ var speedTape = {
     // Speed color band configurations given in the selected unit
     {
       color: COLORS.WHITE,
-      start: 55,
-      end: 115
+      start: 40,
+      end: 85
     },
     {
       color: COLORS.GREEN,
-      start: 64,
-      end: 140
+      start: 48,
+      end: 129
     },
     {
       color: COLORS.YELLOW,
-      start: 140,
-      end: 171
+      start: 129,
+      end: 163
     },
     {
       color: COLORS.RED,
-      start: 171,
-      end: 200
+      start: 162,
+      end: 163
     }
   ],
   units: UNITS.KTS // Units for displaying speed and for speed config.
