@@ -2220,12 +2220,12 @@ var post = function( url ) {
     if ( http.readyState === 4 && http.status === 200 ) {
       console.log( "Done: " + http.responseText );
       system.sendNotification(
-        `Sent the '${text_url}' command to Stratux`,
+        `Sent the '${text_url}' command to SafeAid`,
         4000
       );
     } else if ( http.readyState === 4 && http.status === 0 ) {
       system.sendNotification(
-        `Failed to send the '${text_url}' command to Stratux`,
+        `Failed to send the '${text_url}' command to SafeAid`,
         6000,
         // eslint-disable-next-line no-undef
         ( color = "red" )
